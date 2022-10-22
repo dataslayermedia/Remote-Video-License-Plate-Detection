@@ -20,7 +20,7 @@ let options = {
 var index = 1;
 
 
-const buttonPressesLogFile = '/var/www/html/License-Plate-Detection-Video-Remote/flag.txt';
+const buttonPressesLogFile = './flag.txt';
 
 console.log(`Watching for file changes on ${buttonPressesLogFile}`);
 
