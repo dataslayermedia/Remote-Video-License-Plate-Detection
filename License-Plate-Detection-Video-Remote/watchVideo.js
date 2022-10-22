@@ -70,7 +70,7 @@ var analyzeImages = function (index) {
         fetch("https://api.platerecognizer.com/v1/plate-reader/", {
                 method: "POST",
                 headers: {
-                    Authorization: "Token 01b00264cab28ff3f6b07a0f31681579bad7cb76",
+                    Authorization: "Token 01b00264cab2f3f6b07a0f31681579cb76",
                 },
                 body: body,
             })
