@@ -11,7 +11,7 @@ var takeVideo = function () {
     console.log("take video function");
 
     var start = Date.now();
-    var child = exec('libcamera-vid -t 1000 -o test.h264 --width 1920 --height 1080');
+    var child = exec('libcamera-vid -t 5000 -o test.h264 --width 1920 --height 1080');
     // var child = exec('ls');
 
     child.stdout.on('data', function (data) {

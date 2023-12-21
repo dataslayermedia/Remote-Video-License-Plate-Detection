@@ -15,6 +15,8 @@ nvm install 8.10.0
 
 nvm use 8.10.0
 
+npm install -g pm2
+
 sudo chmod -R 777 directory_name
 
 npm install node-fetch@2
@@ -26,3 +28,4 @@ npm install @google-cloud/datastore
 sudo apt-get install ffmpeg
 
 sudo apt install imagemagick
+

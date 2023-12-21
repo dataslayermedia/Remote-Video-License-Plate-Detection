@@ -44,13 +44,6 @@ fs.watchFile(buttonPressesLogFile, (curr, prev) => {
 
 });
 
-
-
-
-
-
-
-
 var analyzeImages = function (index) {
 
     console.log("Analyze Images Function");
