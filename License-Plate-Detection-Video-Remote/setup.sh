@@ -24,3 +24,5 @@ npm install log-timestamp
 npm install @google-cloud/datastore
 
 sudo apt-get install ffmpeg
+
+sudo apt install imagemagick

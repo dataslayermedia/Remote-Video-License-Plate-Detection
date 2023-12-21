@@ -65,12 +65,12 @@ var analyzeImages = function (index) {
         body.append("upload", fs.createReadStream(image_path));
         // Or body.append('upload', base64Image);
 
-        body.append("regions", "us-ca"); // Change to your country
+        body.append("regions", "ie"); // Change to your country
 
         fetch("https://api.platerecognizer.com/v1/plate-reader/", {
                 method: "POST",
                 headers: {
-                    Authorization: "Token 01b00264cab2f3f6b07a0f31681579cb76",
+                    Authorization: "Token 80dc71155d35b882d8f5f8037775f07f7ca0566a",
                 },
                 body: body,
             })
@@ -84,7 +84,7 @@ var analyzeImages = function (index) {
                     console.log(json.results[0].plate)
 
 
-                    saveData(json.results[0].plate, index);
+                    // saveData(json.results[0].plate, index);
 
                 } else {
 
